@@ -282,15 +282,15 @@
           >
           <address>
             <ul class="contact-footer">
-              <li>
+              <li class="">
                 <a href="" class="linkWhite">м. Київ, пр-т Лесі Українки, 26</a>
               </li>
-              <li class="adress footer">
+              <li class="address footer">
                 <a href="mailto:info@devstudio.com" class="link-footer"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="adress footer">
+              <li class="address footer">
                 <a href="tel:+380961111111" class="link-footer"
                   >+38 096 111 11 11</a
                 >
@@ -323,7 +323,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="footer-social-icon" wigth="20" height="16">
+                <svg class="footer-social-icon" width="20" height="16">
                   <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
                 </svg>
               </a>
@@ -335,7 +335,7 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="footer-social-icon" wigth="10" height="20">
+                <svg class="footer-social-icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-facebook-1"></use>
                 </svg>
               </a>
@@ -347,20 +347,21 @@
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="footer-social-icon" wigth="20" height="20">
+                <svg class="footer-social-icon" width="20" height="20">
                   <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="subscription">
+        <form class="subscription">
           <h3 class="footer-title">Підпишіться на розсилку</h3>
           <div class="subscription-list">
-            <label
-              ><input
-                type="text"
+            <label>
+              <input
+                type="email"
                 class="subscription-input"
+                name="email"
                 placeholder="E-mail"
             /></label>
             <button type="submit" class="hero-button subscription-btn">
@@ -370,7 +371,7 @@
               </svg>
             </button>
           </div>
-        </div>
+        </form>
       </div>
     </footer>
   </body>
