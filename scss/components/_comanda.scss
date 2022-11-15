@@ -4,6 +4,9 @@
 .container-prof .foto + .foto {
   margin-left: 30px;
 }
+// :not(:last-child) {
+//   margin-right: 50px;
+// }
 
 .section.prof {
   background-color: var(--background-color-profess);

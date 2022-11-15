@@ -13,7 +13,6 @@
 .text-portf {
   margin-top: 0;
   margin-bottom: 0px;
-
   color: var(--title-text-color);
   font-size: 16px;
   line-height: 1.88;
@@ -48,7 +47,6 @@
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: 0.03em;
-
   background-color: rgba(33, 150, 243, 0.9);
   padding: 40px;
   height: 100%;
@@ -59,6 +57,7 @@
     transform: translateY(0);
   }
 }
+
 .ul-portfolio {
   display: flex;
   flex-wrap: wrap;
