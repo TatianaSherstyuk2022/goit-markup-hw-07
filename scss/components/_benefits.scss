@@ -1,4 +1,4 @@
-.benefits {
+.benefits_list {
   display: flex;
   flex-wrap: wrap;
   padding-left: 0;
@@ -7,11 +7,13 @@
 
 .benefit {
   width: 270px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
-.benefits .benefit + .benefit {
-  margin-left: 30px;
-}
+
+
 .benefit-blok {
   display: flex;
   justify-content: center;
@@ -23,7 +25,7 @@
   background-color: var(--background-color-profess);
 }
 
-.benefits-list {
+.benefits_after-title {
   color: var(--primary-text-color);
   font-size: 14px;
   font-weight: 700;

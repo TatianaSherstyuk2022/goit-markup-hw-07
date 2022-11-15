@@ -1,8 +1,8 @@
-.section.works {
+.section.work {
   padding-top: 0;
 }
 
-.work {
+.work_title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -10,19 +10,19 @@
   text-align: center;
 }
 
-.work-list {
+.work_list {
   display: flex;
   font-size: 0;
 }
-.work-image {
+.work_image {
   display: block;
 }
 
-.image-link {
+.work_item {
   position: relative;
 }
 
-.work-title {
+.work_after-title {
   position: absolute;
   display: flex;
   font-weight: 700;
@@ -41,6 +41,6 @@
   right: 0;
 }
 
-.work-list .image-link + .image-link {
+.work_list .work_item + .work_item {
   margin-left: 30px;
 }

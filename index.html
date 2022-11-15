@@ -13,8 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="page-header">
@@ -32,16 +31,16 @@
           </ul>
         </nav>
         <ul class="contact">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link telephone-mail">
+          <li class="contact_item item">
+            <a href="mailto:info@devstudio.com" class="link">
               <svg class="icon-header" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-email"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link telephone-mail">
+          <li class="contact_item item">
+            <a href="tel:+380961111111" class="link">
               <svg class="icon-header" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
@@ -53,26 +52,26 @@
     </header>
     <main>
       <!--Hero-->
-      <section class="hero overlay">
+      <section class="hero hero_overlay">
         <div class="container">
-          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button type="button" class="hero-button" data-modal-open>
+          <h1 class="hero_title">Ефективні рішення для вашого бізнесу</h1>
+          <button type="button" class="hero_button" data-modal-open>
             Замовити послугу
           </button>
         </div>
       </section>
       <!--Переваги-->
-      <section class="section">
+      <section class="benefits section">
         <div class="container">
-          <h2 class="visually-hidden">Переваги</h2>
-          <ul class="benefits">
+          <h2 class="benefits_title visually-hidden">Переваги</h2>
+          <ul class="benefits_list">
             <li class="benefit one">
               <div class="benefit-blok">
                 <svg class="benefit-image" width="65px" height="70px">
                   <use href="./images/symbol-defs.svg#icon-Group1"></use>
                 </svg>
               </div>
-              <h3 class="benefits-list">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <h3 class="benefits_after-list">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
@@ -117,31 +116,36 @@
         </div>
       </section>
       <!--Напрямки роботи-->
-      <section class="section works">
+      <section class="work section">
         <div class="container">
-          <h2 class="work">Чим ми займаємося</h2>
-          <ul class="work-list">
-            <li class="image-link">
+          <h2 class="work_title">Чим ми займаємося</h2>
+          <ul class="work_list">
+            <li class="work_item">
               <img
-                class="work-image"
+                class="work_image"
                 src="./images/img1.jpg"
                 alt="Десктопні пристрої"
                 width="370"
               />
-              <p class="work-title">Десктопні додатки</p>
+              <p class="work_after-title">Десктопні додатки</p>
             </li>
-            <li class="image-link">
+            <li class="work_item">
               <img
+                class="work_image"
                 src="./images/img2.jpg"
                 alt="Мобільні пристрої"
                 width="370"
               />
-              <p class="work-title">Мобільні додатки</p>
+              <p class="work_after-title">Мобільні додатки</p>
             </li>
-
-            <li class="image-link">
-              <img src="./images/img3.jpg" alt="Планшети" width="370" />
-              <p class="work-title">Дизайнерські рішення</p>
+            <li class="work_item">
+              <img 
+              class="work_image"
+              src="./images/img3.jpg" 
+              alt="Планшети" 
+              width="370" 
+              />
+              <p class="work_after-title">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
@@ -378,78 +382,78 @@
           </ul>
         </div>
       </section>
-      <section class="section">
+      <section class="clients section">
         <div class="container">
-          <h2 class="clients">Постійні клієнти</h2>
-          <ul class="clients-list">
-            <li class="clients-item">
+          <h2 class="clients_title">Постійні клієнти</h2>
+          <ul class="clients_list">
+            <li class="clients_item">
               <a
                 href=""
-                class="clients-link"
+                class="clients_link"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="client-icon" width="106" height="60">
+                <svg class="client_icon" width="106" height="60">
                   <use href="./images/symbol-defs.svg#icon-company1"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
+            <li class="clients_item">
               <a
                 href=""
-                class="clients-link"
+                class="clients_link"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="client-icon" width="106" height="60">
+                <svg class="client_icon" width="106" height="60">
                   <use href="./images/symbol-defs.svg#icon-company2"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
+            <li class="clients_item">
               <a
                 href=""
-                class="clients-link"
+                class="clients_link"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="client-icon" width="106" height="60">
+                <svg class="client_icon" width="106" height="60">
                   <use href="./images/symbol-defs.svg#icon-company3"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
+            <li class="clients_item">
               <a
                 href=""
-                class="clients-link"
+                class="clients_link"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="client-icon" width="106" height="60">
+                <svg class="client_icon" width="106" height="60">
                   <use href="./images/symbol-defs.svg#icon-company4"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
+            <li class="clients_item">
               <a
                 href=""
-                class="clients-link"
+                class="clients_link"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="client-icon" width="106" height="60">
+                <svg class="client_icon" width="106" height="60">
                   <use href="./images/symbol-defs.svg#icon-company5"></use>
                 </svg>
               </a>
             </li>
-            <li class="clients-item">
+            <li class="clients_item">
               <a
                 href=""
-                class="clients-link"
+                class="clients_link"
                 target="_blank"
                 rel="noopener noreferrer nofollow"
               >
-                <svg class="client-icon" width="106" height="60">
+                <svg class="client_icon" width="106" height="60">
                   <use href="./images/symbol-defs.svg#icon-company6"></use>
                 </svg>
               </a>
@@ -548,7 +552,7 @@
                 name="email"
                 placeholder="E-mail"
             /></label>
-            <button type="submit" class="hero-button subscription-btn">
+            <button type="submit" class="hero_button subscription-btn">
               Підписатися
               <svg class="send-icon" width="24" height="24">
                 <use href="./images/symbol-defs.svg#icon-icon-send"></use>
@@ -645,7 +649,7 @@
               <a href="" class="privacy-link"> Умови договору</a></label
             >
           </div>
-          <button type="submit" class="hero-button modal-btn">
+          <button type="submit" class="hero_button modal-btn">
             Відправити
           </button>
         </form>
